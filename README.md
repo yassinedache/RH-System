@@ -61,7 +61,7 @@ A comprehensive Human Resources (HR) Management System developed using **Django*
 
   # Project Structure
 
-  hr-management-system/
+hr-management-system/
   
 ├── backend/ # Django backend
 

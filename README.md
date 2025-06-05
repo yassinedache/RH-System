@@ -28,46 +28,71 @@ A comprehensive Human Resources (HR) Management System developed using **Django*
 1. **Clone the repository:**
    
    git clone https://github.com/your-username/hr-management-system.git
-   cd hr-management-system
+
+    cd hr-management-system
    
-2. **Create and activate a virtual environment:**
-   python -m venv env
+3. **Create and activate a virtual environment:**
+
+    python -m venv env
+
    source env/bin/activate  # On Windows: env\Scripts\activate
    
-3. **Install dependencies:**
+4. **Install dependencies:**
+
    pip install -r requirements.txt
 
-4. **Apply migrations:**
+5. **Apply migrations:**
+
    python manage.py makemigrations
+   
    python manage.py migrate
 
-5. **Create a superuser:**
+6. **Create a superuser:**
+   
    python manage.py createsuperuser
 
 
-6. **Run the development server:**
+7. **Run the development server:**
+   
    python manage.py runserver
+   
    Visit http://127.0.0.1:8000 in your browser.
 
 
   # Project Structure
 
   hr-management-system/
+  
 ├── backend/ # Django backend
+
 │ ├── api/ # Main API logic (views, models, serializers)
+
 │ ├── core/ # Settings and core configuration
+
 │ ├── manage.py # Django management script
+
 │ └── requirements.txt # Python dependencies
+
 │
+
 ├── frontend/ # React frontend
+
 │ ├── src/
+
 │ │ ├── components/ # UI Components (auth, dashboard, employees)
+
 │ │ ├── services/ # API handling and utilities
+
 │ │ ├── App.js # Main React component
+
 │ │ └── index.js # Entry point
+
 │ ├── package.json # Node dependencies
+
 │ └── .env # Environment variables
+
 │
+
 └── README.md
 
 
